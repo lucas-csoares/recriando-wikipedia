@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,170 @@
     <title>Página Principal</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <header>
+        <!--Sem legenda, a tag <figure> não agrega em termos semânticos-->
+        <a href="./index.html"><img src="assets/images/wikipedia-logo.png" alt="logo do wikipedia" width="200" /></a>
+    </header>
 
-    <div class="bar"></div>
+    <nav class="bar"></nav>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+    <main class="main">
+        <aside class="sidebar"> <!--Temas de cada um dos itens a serem abordados-->
+            <h2>Temas</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="./index.html">Inteligência Artificial</a></li>
+                <li><a href="./frontend-backend.html">Front-end e back-end</a></li>
+                <li><a href="./banco-de-dados.html">Banco de Dados</a></li>
+                <li><a href="./angular.html">Angular</a></li>
+                <li><a href="./dot-net.html">.NET Framework</a></li>
             </ul>
-        </div>
+        </aside>
 
-        <div class="main">
-            
-        </div>
+        <article class="article">
+            <h1>Inteligência artificial</h1>
 
-        <div class="anchors">
+            <p>Na informática, a Inteligência Artificial (abreviado IA) genericamente é a inteligência, o raciocínio e o
+                aprendizado exibida por máquinas semelhante ao raciocino humano;busca desenvolver máquinas autônomas ou
+                sistemas especialistas capazes de simular o pensamento humano e realizar várias tarefas complexas de
+                forma independente.É o sistema que permite aos computadores executar funções avançadas, como a
+                capacidade de analisar dados em grande escala e fazer previsões/recomendações;É um campo de
+                pesquisa em ciência da computação que desenvolve e estuda métodos e softwares que permitem que as
+                máquinas percebam seu ambiente e usem o aprendizado e a inteligência para tomar ações que maximizem suas
+                chances de atingir objetivos definidos.A IA iniciou na década de 1950 com os pesquisadores Alan
+                Turing e Herbert Simon baseado no conceito do filósofo grego Aristóteles.</p>
+
+            <h2 id="historia">História</h2>
+
+            <p>O interesse no desenvolvimento de máquinas autônomas capazes de simular o pensamento humano e de realizar
+                varias tarefas cresceu vertiginosamente nas últimas décadas,da segunda metade do século XX,
+                realizando assim os primeiros estudos sobre inteligência artificial (IA) a um propósito comum, a partir
+                de iniciativas de cientistas de diversas áreas, como: psicologia, ciência cognitiva, ciência da
+                computação e, robótica.Ferramentas eficientes em analisar problemas e oferecer soluções e
+                planejamentos (tomada de decisão), automatização de tarefas no cotidiano das pessoas.</p>
+
+            <p>Mas apesar dos estudos serem modernos, o conceito de inteligência artificial não é contemporâneo;
+                Aristóteles (professor de Alexandre, o Grande) sonhava em substituir a mão-de-obra escrava por
+                ferramentas autônomas, sendo esta possivelmente a primeira ideia de Inteligência Artificial relatada,
+                que a ciência da computação exploraria muito tempo depois.O desenvolvimento dessa ideia ocorreu
+                plenamente no século XX, principalmente na década de 1950, com pensadores como Allan Turing, Herbert
+                Simon e, John McCarthy. Turing escreveu o artigo "Computing Machinery and InteIligence" sobre a
+                possibilidade de uma máquina pensar e imitar o comportamento humano inteligente com tal perfeição, de
+                forma que pudesse confundir ate um juiz humano.Turing também esboçou uma proposta de pesquisa para
+                tornar possível.Inicialmente os teste em IA foram repletos de sucessos – porém limitados devido o
+                desempenho reduzido dos primeiros computadores - oque causava surpresa, foi o fato de um computador
+                realizar atividade remotamente inteligente.</p>
+
+            <h3 id="ia-experimental">Investigação na IA experimental</h3>
+
+            <p>A inteligência artificial começou como um campo experimental na década de 1950 com pioneiros como Allen
+                Newell e Herbert Simon, que fundaram o primeiro laboratório de inteligência artificial na Universidade
+                Carnegie Mellon, e McCarty que juntamente com Marvin Minsky, que fundaram o MIT AI Lab em 1959. Foram
+                eles alguns dos participantes na famosa conferência de verão de 1956 em Darthmouth College.</p>
+
+            <p>Historicamente, existem dois grandes estilos de investigação em IA: IA "neats" e IA "scruffies". A IA
+                "neats", limpa, clássica ou simbólica. Envolve a manipulação de símbolos e de conceitos abstractos, e é
+                a metodologia utilizada na maior parte dos sistemas periciais.</p>
+
+            <p>Paralelamente a esta abordagem existe a abordagem IA "scruffies", ou "coneccionista", da qual as redes
+                neuronais são o melhor exemplo. Esta abordagem cria sistemas que tentam gerar inteligência pela
+                aprendizagem e adaptação em vez da criação de sistemas desenhados com o objectivo especifico de resolver
+                um problema. Ambas as abordagems apareceram num estágio inicial da história de IA. Nas décadas de
+                1960/70 os coneccionistas foram retirados do primeiro plano da investigação em IA, mas o interesse por
+                esta vertente da IA foi retomada na década de 1980, quando as limitações da IA "limpa" começaram a ser
+                percebidas.</p>
+
+            <p>Pesquisas sobre inteligência artificial foram intensamente custeadas na década de 1980 pela Agência de
+                Projetos de Pesquisas Avançadas sobre Defesa (“Defense Advanced Research Projects Agency”), nos Estados
+                Unidos, e pelo Projeto da Quinta Geração (“Fifth Generation Project”), no Japão. O trabalho subsidiado
+                fracassou no sentido de produzir resultados imediatos, a despeito das promessas grandiosas de alguns
+                praticantes de IA, o que levou proporcionalmente a grandes cortes de verbas de agências governamentais
+                no final dos anos 80, e em consequência a um arrefecimento da atividade no setor, fase conhecida como O
+                inverno da IA. No decorrer da década seguinte, muitos pesquisadores de IA mudaram para áreas
+                relacionadas com metas mais modestas, tais como aprendizado de máquinas, robótica e visão computacional,
+                muito embora pesquisas sobre IA pura continuaram em níveis reduzidos.</p>
+
+            <h2 id="tipos">Tipos</h2>
+
+            <h3 id="ani">Tipo fraca ou inteligência artificial limitada (ANI)</h3>
+
+            <p>A IA tipo fraca, limitada, ou estreita (em inglês Narrow AI) são máquinas ou sistemas inteligentes
+                que não fazem raciocínio; é limitada porque foi projetada para fazer uma tarefa específica, após ser
+                treinado por um humano.Ou seja, não aprende de forma autônoma.Como por exemplo reconhecer
+                comandos de voz e encontrar a rota mais rápida.</p>
+
+            <h3 id="agi">Tipo forte ou inteligência artificial geral (AGI)</h3>
+
+            <p>A AGI possui a habilidade de compreender e adaptar-se a vários contextos (e desafios) de forma autônoma
+                sem a necessidade treinamento.[40] Máquinas com inteligência versátil semelhante à humana, aprende de
+                forma autônoma.</p>
+
+            <h3 id="ml">Aprendizado de máquina (Machine Learning)</h3>
+
+            <p>É um subcampo da inteligência artificial, na qual uma máquina aprende, ou seja, é ensinada a partir de
+                algoritmos a realizar uma tarefa determinada, entendendo um padrão.</p>
+
+            <h3 id="rna">Redes neurais artificiais</h3>
+
+            <p>Uma estrutura computacional inspirado na estrutura neural do ser humano para simular o cérebro humano,
+                como por exemplo o algoritmo usado no buscador do Google;esta reconhece os termos pesquisados,
+                busca os sinônimos e, assuntos relacionados para assim gerar melhores resultados.</p>
+
+            <figure>
+                <img src="./assets/images/Kismet-IMG_6007-gradient.jpg" alt="robô criado na década de 1990"
+                    width="300" />
+
+                <figcaption>Kismet, robô criado na década de 1990; máquina que reconhece e simula emoções.</figcaption>
+            </figure>
+
+
+            <h2 id="aplicacoes">Aplicações</h2>
+
+            <p>A inteligência artificial, em um contexto amplo, possui aplicações diversas, sendo empregada na resolução
+                de problemas práticos por entidades civis, governamentais, e militares. Possui aplicações na área da
+                saúde, mídia e comércio eletrônico, entre outros.[60] Há uma discussão sobre como a IA tem sido
+                integrada em sistemas de planejamento automatizado, diagnóstico médico, utilização por advogados (IA
+                para advogados), reconhecimento de linguagem e muito mais, mostrando a ampla gama de aplicações e o
+                impacto profundo da IA em múltiplas áreas.</p>
+
+
+        </article>
+
+        <aside class="anchors"> <!--Links para a mesma página-->
             <h2>Neste Artigo</h2>
+
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li>
+                    <details>
+                        <summary><a href="#historia">História</a></summary>
+                        <ul>
+                            <li><a href="#ia-experimental">Investigação na IA experimental</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary><a href="#tipos">Tipos</a></summary>
+                        <ul>
+                            <li><a href="#ani">Tipo fraca ou inteligência artificial limitada (ANI)</a></li>
+                            <li><a href="#agi">Tipo forte ou inteligência artificial geral (AGI)</a></li>
+                            <li><a href="#ml">Aprendizado de máquina (Machine Learning)</a></li>
+                            <li><a href="#rna">Redes neurais artificiais</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li><a href="#aplicacoes">Aplicações</a></li>
             </ul>
-        </div>
-    </div>
 
-    <div class="footer">
+        </aside>
 
-    </div>
+    </main>
+
+
+    <footer class="footer">Desenvolvimento web - Lucas Soares</footer>
+
 </body>
+
 </html>
