@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!--Sem legenda, a tag <figure> não agrega em termos semânticos-->
+        <a href="./index.html"><img src="assets/images/wikipedia-logo.png" alt="logo do wikipedia" width="200" /></a>
+    </header>
+
+    <nav class="bar"></nav>
+
+    <main class="main">
+        <aside class="sidebar"> <!--Temas de cada um dos itens a serem abordados-->
+            <h2>Temas</h2>
+            <ul>
+                <li><a href="./index.html">Inteligência Artificial</a></li>
+                <li><a href="./frontend-backend.html">Front-end e back-end</a></li>
+                <li><a href="./banco-de-dados.html">Banco de Dados</a></li>
+            </ul>
+        </aside>
+
+        <article class="article">
+            <h1>Front-end e back-end</h1>
+
+            <p>Em ciência da computação, <strong><i>front-end</i></strong>, <strong>interface frontal</strong> ou
+                <strong>parte frontal</strong> e <strong><i>back-end</i></strong>, <strong>parte secundária</strong>,
+                <strong>parte de suporte</strong> ou <strong>parte de retaguarda</strong> são termos generalizados que
+                se referem às etapas inicial e final de um processo. O <i>front-end</i> é responsável por coligir a
+                entrada do usuário em várias formas e processá-la para adequá-la a uma especificação em que o
+                <i>back-end</i> a possa utilizar.</p>
+
+            <h2 id="desenvolvimento-software">Desenvolvimento de software</h2>
+
+            <p>Em arquitetura de software há muitas camadas entre o hardware e o usuário final. Cada uma pode ser dita
+                como tendo um <i></i> front-end e um <i></i>back-end. O <i></i>front-end é uma abstração, simplificando
+                o componente subjacente pelo fornecimento de uma interface amigável, como por um exemplo um navegador de
+                Internet, ou um formulário para um determinado usuário.</p>
+
+            <p>Usar a interface de linha de comando (ILC) exige a aquisição de terminologia especial e memorização de
+                comandos, desta forma uma interface gráfica do usuário (IGU) age como um ambiente <i>desktop</i> de
+                <i>front-end</i>, em vez disso. No ambiente <i>Unix</i>, <i>ncurses</i> é um <i>front-end</i>
+                semi-gráfico simples para a ILC. No nível de ILC do <i>Unix</i>, propriamente dito, muitos programas
+                orientados a <i>stream</i> de <i>bytes</i> (isto é, usando stdin/stdout/stderr como suas interfaces)
+                agem como filtros - programas standalone que também podem servir como <i>front-ends</i> e <i>back
+                    ends</i> para outros programas. (Eles funcionam canalizando dados entre eles mesmos, muitas vezes
+                para processamento de texto. Por exemplo:
+                <code>$ grep palavra ~usuario/dir/arquivodeentrada | sort | tee ~usuario/dir/arquivodesaida</code>)</p>
+
+
+            <h2 id="redes-de-computadores">Redes de Computadores</h2>
+
+            <p>Em redes de computadores, front-end pode se referir a qualquer hardware que otimiza ou protege o tráfego
+                de rede. Ele é chamado de hardware front-end de aplicação devido ser localizado na fronteira da rede. O
+                tráfego de rede passa através do hardware do front-end antes de entrar na rede</p>
+
+            <h2 id="outros-usos">Outros usos</h2>
+
+            <p>Em sistemas de gerenciamento de conteúdo os termos front-end e back-end podem se referir às visões do
+                usuário final do SGC e às visões administrativas, respectivamente.
+
+                Em compiladores, o front-end traduz um código fonte de programa de computador em uma representação
+                intermediária e o back-end trabalha com a representação intermediaria para produzir código em uma
+                linguagem de saída. O back-end normalmente otimiza-se para produzir código que execute mais rápido. A
+                distinção de front-end/back-end pode separar a seção parser que lida com o código fonte e o back-end que
+                gera código e o otimiza. Alguns projetos, como o GCC, oferecem escolhas entre vários front-ends
+                (analisando linguagens fonte diferentes) ou back-ends (gerando código para processadores de alvo
+                diferentes).
+
+                Em síntese de voz, o front-end refere-se à parte do sistema de síntese que converte o texto de entrada
+                em uma representação fonética simbólica e o back-end converte a representação fonética simbólica em sons
+                reais.
+
+                No contexto de aplicações WWW, um mediador é um serviço que funciona simultaneamente como um servidor em
+                seu front-end e como um cliente em seu back-end.</p>
+
+
+        </article>
+
+        <aside class="anchors"> <!--Links para a mesma página-->
+            <h2>Neste Artigo</h2>
+
+            <ul>
+                <li><a href="#desenvolvimento-software">Desenvolvimento de Software</a></li>
+                <li><a href="#redes-de-computadores">Redes de Computadores</a></li>
+                <li><a href="#outros-usos">Outros usos</a></li>
+            </ul>
+
+        </aside>
+
+    </main>
+
+
+    <footer class="footer">Desenvolvimento web - Lucas Soares</footer>
+
+</body>
+
+</html>
