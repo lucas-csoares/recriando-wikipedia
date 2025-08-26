@@ -50,7 +50,7 @@ Este projeto foi desenvolvido utilizando:
 - **HTML5** → Estruturação do conteúdo.  
 - **CSS3** → Estilização básica.  
 - **VS Code + Live Server** → Para visualização e desenvolvimento em tempo real.  
-- **DevTools (Chrome/Firefox)** → Para inspeção.  
+- **DevTools (Chrome/Firefox)** → Para inspeção e ajuste do layout.  
 
 ---
 
